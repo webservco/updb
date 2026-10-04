@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- $Id$ -->
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <!-- Mail library settings -->
+        <mail>
+            <!-- Content-Type ( plain, html ) -->
+            <content_type>html</content_type>
+            <!-- Encoding ( 7bit, 8bit, binary, base64, quoted-printable ) -->
+            <encoding>7bit</encoding>
+            <!-- Charset ( utf-8, iso-8859-1, etc ) -->
+            <charset>utf-8</charset>
+            <!-- Use envelope from? -->
+            <envelope>0</envelope>
+            <!-- Default email sender -->
+            <sender>
+                <address>updb@example.com</address>
+                <name>UPDb</name>
+            </sender>
+            <!-- Default email recipient -->
+            <recipient>
+                <address>updb@example.com</address>
+                <name>UPDb</name>
+            </recipient>
+            <bcc>
+                <address>updb@example.com</address>
+                <name>UPDb</name>
+            </bcc>
+            <!-- Use SMTP to send mail? -->
+            <smtp>1</smtp>
+            <!-- Allowed attachment types -->
+            <attach>gif,jpg,png,zip,text,pdf</attach>
+        </mail>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+		
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- Mail library settings -->
+		<mail>
+			<!-- Content-Type ( plain, html ) -->
+			<content_type>html</content_type>
+			<!-- Encoding ( 7bit, 8bit, binary, base64, quoted-printable ) -->
+			<encoding>7bit</encoding>
+			<!-- Charset ( utf-8, iso-8859-1, etc ) -->
+			<charset>utf-8</charset>
+			<!-- Use envelope from? -->
+			<envelope>0</envelope>
+			<!-- Default email sender -->
+			<sender>
+				<address>updb@example.com</address>
+				<name>UPDb</name>
+			</sender>
+			<!-- Default email recipient -->
+			<recipient>
+				<address>updb@example.com</address>
+				<name>UPDb</name>
+			</recipient>
+			<bcc>
+                <address>updb@example.com</address>
+                <name>UPDb</name>
+			</bcc>
+			<!-- Use SMTP to send mail? -->
+			<smtp>1</smtp>
+			<!-- Allowed attachment types -->
+			<attach>gif,jpg,png,zip,text,pdf</attach>
+		</mail>
+	</prod>
+</config>

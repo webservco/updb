@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <path>
+            <core>/var/www/html/src/core/</core>
+            <app>/var/www/html/src/app/</app>
+            <www>/var/www/html/public/</www>
+        </path>
+        <url>
+            <www>https://updb.ddev.site/</www>
+        </url>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+	    <path>
+			<core>/var/www/updb/src/core/</core>
+			<app>/var/www/updb/src/app/</app>
+			<www>/var/www/updb/public/</www>
+		</path>
+		<url>
+			<www>https://updb.example.com/</www>
+		</url>
+	</prod>
+</config>
+<!-- $Id$ -->

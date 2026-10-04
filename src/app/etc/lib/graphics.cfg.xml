@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <!-- Captcha library settings -->
+        <graphics>
+            <thumbnail>
+                <default>
+                    <!-- 1 gif, 2 jpeg, 3 png -->
+                    <type>2</type>
+                    <size>80</size>
+                </default>
+            </thumbnail>
+        </graphics>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+	    <!-- Captcha library settings -->
+		<graphics>
+		    <thumbnail>
+		        <default>
+		            <!-- 1 gif, 2 jpeg, 3 png -->
+		            <type>2</type>
+		            <size>80</size>
+		        </default>
+		    </thumbnail>
+		</graphics>
+	</prod>
+</config>
+<!-- $Id$ -->

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <!-- Application settings -->
+        <app>
+            <id></id>
+            <title>Underground Press Database (UPDb)</title>
+            <prefix>up_</prefix>
+        </app>
+        <options>
+            <multilanguage>1</multilanguage>
+            <menus>1</menus><!-- use menus -->
+            <timezone>0</timezone><!-- custom timezone functionality -->
+            <webapp>0</webapp><!-- web app functionality (device info, multi markets, free/pro, etc -->
+            <sessions>1</sessions><!-- use sessions (required for users functionality) -->
+            <users>1</users><!-- users functionality -->
+        </options>
+        <settings>
+            <pagination>
+                <items>25</items>
+            </pagination>
+        </settings>
+        <menu>
+            <web>
+                <item>
+                    <title>Home</title>
+                    <link>index</link>
+                    <url></url>
+                    <resource>/</resource>
+                </item>
+                <item>
+                    <title>Publications</title>
+                    <link>Pub/App/PubList</link>
+                    <url></url>
+                    <resource>Pub/</resource>
+                </item>
+                <item>
+                    <title>Community</title>
+                    <link>Content/App/Community</link>
+                    <url></url>
+                    <resource>Content/App/Community</resource>
+                </item>
+                <item>
+                    <title>Lists</title>
+                    <link>Lists/App/All</link>
+                    <url></url>
+                    <resource>Lists/App</resource>
+                </item>
+                <item>
+                    <title>My account</title>
+                    <link>Users/App/Account</link>
+                    <url></url>
+                    <resource>Users/App/</resource>
+                </item>
+                <item>
+                    <title>About</title>
+                    <link>Content/App/Display/c/2</link>
+                    <url></url>
+                    <resource>Content/App/Display/c/2</resource>
+                </item>
+                <item>
+                    <title>Contact</title>
+                    <link>Content/App/Contact</link>
+                    <url></url>
+                    <resource>Content/App/Contact</resource>
+                </item>
+            </web>
+            <web_admin>
+                <item>
+                    <title>Home</title>
+                    <link>Content/Admin/Home</link>
+                    <url></url>
+                    <resource>Content/Admin/Home</resource>
+                </item>
+                <item>
+                    <title>Users</title>
+                    <link>Users/Admin/Users</link>
+                    <url></url>
+                    <resource>Users/Admin</resource>
+                </item>
+                <item>
+                    <title>Frontend</title>
+                    <link>index</link>
+                    <url></url>
+                    <resource>/</resource>
+                </item>
+            </web_admin>
+            <mobile>
+            </mobile>
+        </menu>
+        <!-- Database settings (general) -->
+        <database>
+            <type>MySQLi</type>
+            <binkey>0</binkey>
+            <extra>
+                <host></host>
+                <port></port>
+                <user></user>
+                <password></password>
+                <database></database>
+            </extra>
+        </database>
+        <!-- Output settings -->
+        <output>
+            <engine>Web</engine>
+        </output>
+        <!-- Date settings -->
+        <date>
+            <timezone>Europe/Budapest</timezone>
+        </date>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- Application settings -->
+		<app>
+		    <id></id>
+			<title>Underground Press Database (UPDb)</title>
+			<prefix>up_</prefix>
+		</app>
+		<options>
+		    <multilanguage>1</multilanguage>
+		    <menus>1</menus><!-- use menus -->
+		    <timezone>0</timezone><!-- custom timezone functionality -->
+		    <webapp>0</webapp><!-- web app functionality (device info, multi markets, free/pro, etc -->
+			<sessions>1</sessions><!-- use sessions (required for users functionality) -->
+			<users>1</users><!-- users functionality -->
+		</options>
+		<settings>
+		    <pagination>
+		        <items>25</items>
+		    </pagination>
+		</settings>
+		<menu>
+			<web>
+				<item>
+					<title>Home</title>
+					<link>index</link>
+					<url></url>
+					<resource>/</resource>
+				</item>
+				<item>
+					<title>Publications</title>
+					<link>Pub/App/PubList</link>
+					<url></url>
+					<resource>Pub/</resource>
+				</item>
+				<item>
+					<title>Community</title>
+					<link>Content/App/Community</link>
+					<url></url>
+					<resource>Content/App/Community</resource>
+				</item>
+				<item>
+					<title>Lists</title>
+					<link>Lists/App/All</link>
+					<url></url>
+					<resource>Lists/App</resource>
+				</item>
+				<item>
+					<title>My account</title>
+					<link>Users/App/Account</link>
+					<url></url>
+					<resource>Users/App/</resource>
+				</item>
+				<item>
+					<title>About</title>
+					<link>Content/App/Display/c/2</link>
+					<url></url>
+					<resource>Content/App/Display/c/2</resource>
+				</item>
+				<item>
+					<title>Contact</title>
+					<link>Content/App/Contact</link>
+					<url></url>
+					<resource>Content/App/Contact</resource>
+				</item>
+			</web>
+			<web_admin>
+				<item>
+					<title>Home</title>
+					<link>Content/Admin/Home</link>
+					<url></url>
+					<resource>Content/Admin/Home</resource>
+				</item>
+				<item>
+					<title>Users</title>
+					<link>Users/Admin/Users</link>
+					<url></url>
+					<resource>Users/Admin</resource>
+				</item>
+				<item>
+					<title>Frontend</title>
+					<link>index</link>
+					<url></url>
+					<resource>/</resource>
+				</item>
+			</web_admin>
+			<mobile>
+			</mobile>
+		</menu>
+		<!-- Database settings (general) -->
+		<database>
+			<type>MySQLi</type>
+			<binkey>0</binkey>
+			<extra>
+				<host></host>
+				<port></port>
+				<user></user>
+				<password></password>
+				<database></database>
+			</extra>
+		</database>
+		<!-- Output settings -->
+		<output>
+			<engine>Web</engine>
+		</output>
+		<!-- Date settings -->
+		<date>
+			<timezone>Europe/Budapest</timezone>
+		</date>
+	</prod>
+</config>
+<!-- $Id$ -->

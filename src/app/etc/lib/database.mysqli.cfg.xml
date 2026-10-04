@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <!-- Database configuration -->
+        <database>
+            <host>db</host>
+            <port>3306</port>
+            <user>db</user>
+            <password>db</password>
+            <database>db</database>
+            <!-- Fix GROUP_CONCAT limit? -->
+            <fix_gc>1</fix_gc>
+        </database>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+	    <!-- Database configuration -->
+		<database>
+			<host>localhost</host>
+			<port>3306</port>
+			<user>updb</user>
+			<password>CHANGE_ME</password>
+			<database>updb</database>
+			<!-- Fix GROUP_CONCAT limit? -->
+			<fix_gc>1</fix_gc>
+		</database>
+	</prod>
+</config>
+<!-- $Id$ -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- Comments library settings -->
+		<comments>
+		    <settings>
+		        <user_name_property>user_nickname</user_name_property>
+		    </settings>
+		    <form>
+		        <user>
+		            <comment_content>
+		                <type>textarea</type>
+						<title>Add comment</title>
+						<description></description>
+						<required>1</required>
+						<i18n></i18n>
+						<filters>StripTags</filters>
+						<conditions>HasWordsMin[3]</conditions>
+		            </comment_content>
+		        </user>
+		    </form>
+		</comments>
+	</prod>
+
+</config>
+<!-- $Id$ -->

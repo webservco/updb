@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <!-- Lists module settings -->
+        <lists>
+            <form>
+                <list>
+                    <list_title>
+                        <type>text</type>
+                        <title>Title</title>
+                        <description>List title</description>
+                        <required>1</required>
+                        <filters>StripTags</filters>
+                        <conditions></conditions>
+                    </list_title>
+                    <list_notes>
+                        <type>textarea</type>
+                        <title>Notes</title>
+                        <description>Notes about this list</description>
+                        <required></required>
+                        <i18n></i18n>
+                        <filters>StripTags</filters>
+                        <conditions></conditions>
+                    </list_notes>
+                    <list_public>
+                        <type>checkbox</type>
+                        <title>Is public?</title>
+                        <description>Uncheck if you want this list to be private</description>
+                        <required></required>
+                        <filters></filters>
+                        <conditions></conditions>
+                        <content>1</content>
+                    </list_public>
+                </list>
+                <item>
+                    <item_notes>
+                        <type>textarea</type>
+                        <title>Notes</title>
+                        <description>Notes about this item</description>
+                        <required></required>
+                        <i18n></i18n>
+                        <filters>StripTags</filters>
+                        <conditions></conditions>
+                    </item_notes>
+                </item>
+            </form>
+        </lists>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- Lists module settings -->
+		<lists>
+			<form>
+			    <list>
+			        <list_title>
+			            <type>text</type>
+						<title>Title</title>
+						<description>List title</description>
+						<required>1</required>
+						<filters>StripTags</filters>
+						<conditions></conditions>
+			        </list_title>
+			        <list_notes>
+			            <type>textarea</type>
+						<title>Notes</title>
+						<description>Notes about this list</description>
+						<required></required>
+						<i18n></i18n>
+						<filters>StripTags</filters>
+						<conditions></conditions>
+			        </list_notes>
+			        <list_public>
+			            <type>checkbox</type>
+						<title>Is public?</title>
+						<description>Uncheck if you want this list to be private</description>
+						<required></required>
+						<filters></filters>
+						<conditions></conditions>
+						<content>1</content>
+			        </list_public>
+			    </list>
+			    <item>
+			        <item_notes>
+			            <type>textarea</type>
+						<title>Notes</title>
+						<description>Notes about this item</description>
+						<required></required>
+						<i18n></i18n>
+						<filters>StripTags</filters>
+						<conditions></conditions>
+			        </item_notes>
+			    </item>
+			</form>
+		</lists>
+	</prod>
+
+</config>
+<!-- $Id$ -->

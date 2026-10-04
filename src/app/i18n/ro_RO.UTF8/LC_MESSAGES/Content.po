@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Content $Id$\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-25 09:39+0100\n"
+"PO-Revision-Date: 2013-09-25 09:40+0100\n"
+"Last-Translator: Radu Maier <radu@webserv.co>\n"
+"Language-Team: WebServ.Co <radu@webserv.co>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;___:1,2;title;description;"
+"keywords;content\n"
+"X-Poedit-Basepath: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/mod/"
+"Content/\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/"
+"ctrl/Content\n"
+"X-Poedit-SearchPath-2: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/"
+"etc/mod/Content\n"
+"X-Poedit-SearchPath-3: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/"
+"opt/tpl/Webapp/Content\n"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Content/App.ctrl.php:49
+msgid "Restricted"
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Content/App.ctrl.php:72
+msgid "Contact"
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Content/Admin.ctrl.php:51
+msgid "Home"
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Content/community.tpl.php:3
+msgid "Community"
+msgstr "Comunitate"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Content/community.tpl.php:5
+msgid "Lists"
+msgstr "Liste"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Content/community.tpl.php:16
+msgid "My lists"
+msgstr "Listele mele"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Content/user.tpl.php:2
+msgid "Get data from another module"
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Content/restricted.tpl.php:3
+msgid "Error"
+msgstr "Eroare"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Content/restricted.tpl.php:3
+msgid "You don't have permission to access the selected resource."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Content/home.tpl.php:3
+msgid "Latest issues"
+msgstr "Ultimele ediții"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Content/home.tpl.php:17
+msgid "pages"
+msgstr "pagini"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Content/home.tpl.php:23
+msgid "No issues"
+msgstr "Nu sunt ediții"

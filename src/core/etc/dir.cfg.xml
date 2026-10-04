@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+		<dir>
+			<core>
+				<i18n>i18n</i18n>
+				<int>int</int>
+				<obj>obj</obj>
+			</core>
+		</dir>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+		<dir>
+			<core>
+				<i18n>i18n</i18n>
+				<int>int</int>
+				<obj>obj</obj>
+			</core>
+		</dir>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<dir>
+			<core>
+				<i18n>i18n</i18n>
+				<int>int</int>
+				<obj>obj</obj>
+			</core>
+		</dir>
+	</prod>
+</config>
+<!-- $Id: dir.cfg.xml 3 2012-03-13 23:59:33Z radu $ -->

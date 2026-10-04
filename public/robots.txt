@@ -1,0 +1,14 @@
+# $Id$
+User-Agent: *
+Allow: /
+Disallow: /ctrl/
+Disallow: /etc/
+Disallow: /i18n/
+Disallow: /int/
+Disallow: /lib/
+Disallow: /mod/
+Disallow: /opt/
+Disallow: /sys/
+Disallow: /tmp/
+Disallow: /var/
+Disallow: /usr/

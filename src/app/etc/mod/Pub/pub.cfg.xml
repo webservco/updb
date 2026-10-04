@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <!-- Pub module settings -->
+        <pub>
+            <form>
+                <pub>
+                    <pub_title>
+                        <type>text</type>
+                        <title>Title</title>
+                        <description>Title of the publication.</description>
+                        <required>1</required>
+                        <filters>StripTags</filters>
+                        <conditions></conditions>
+                    </pub_title>
+                    <pub_title_sort>
+                        <type>text</type>
+                        <title>Sorting title</title>
+                        <description>Used for alphabetical sorting of the publications list. For example for "The Safety Pin" it would be "Safety Pin, The". Leave blank if it's
+                            the same as the title.</description>
+                        <required></required>
+                        <filters>StripTags</filters>
+                        <conditions></conditions>
+                    </pub_title_sort>
+                    <pub_type_id>
+                        <type>select</type>
+                        <title>Type</title>
+                        <description>Publication type.</description>
+                        <required>1</required>
+                        <filters></filters>
+                        <conditions></conditions>
+                    </pub_type_id>
+                    <country_code>
+                        <type>select</type>
+                        <title>Country</title>
+                        <description>Country of origin.</description>
+                        <required>1</required>
+                        <filters></filters>
+                        <conditions></conditions>
+                    </country_code>
+                    <pub_description>
+                        <type>textarea</type>
+                        <title>Description</title>
+                        <description>General notes about the publication.</description>
+                        <required></required>
+                        <i18n>1</i18n>
+                        <filters>StripTags</filters>
+                        <conditions></conditions>
+                    </pub_description>
+                </pub>
+                <pub_issue>
+                    <pub_list>
+                        <type>select</type>
+                        <title>Publications</title>
+                        <description>Select one or more publications this issue belongs to.</description>
+                        <required>1</required>
+                        <filters></filters>
+                        <conditions></conditions>
+                        <custom>multiple</custom>
+                    </pub_list>
+                    <pub_issue_title>
+                        <type>text</type>
+                        <title>Issue title</title>
+                        <description>Title and number eg "Profane Existence #13".</description>
+                        <required>1</required>
+                        <filters>StripTags</filters>
+                        <conditions></conditions>
+                    </pub_issue_title>
+                    <pub_issue_year>
+                        <type>text</type>
+                        <title>Year</title>
+                        <description>Year the issue was published.</description>
+                        <required></required>
+                        <filters>StripTags|RemoveBadChars</filters>
+                        <conditions>IsInteger</conditions>
+                    </pub_issue_year>
+                    <pub_layout_type_id>
+                        <type>select</type>
+                        <title>Layout type</title>
+                        <description></description>
+                        <required>1</required>
+                        <filters></filters>
+                        <conditions></conditions>
+                    </pub_layout_type_id>
+                    <pub_duplication_type_id>
+                        <type>select</type>
+                        <title>Duplication type</title>
+                        <description></description>
+                        <required>1</required>
+                        <filters></filters>
+                        <conditions></conditions>
+                    </pub_duplication_type_id>
+                    <pub_format_id>
+                        <type>select</type>
+                        <title>Format</title>
+                        <description>Issue format.</description>
+                        <required>1</required>
+                        <filters></filters>
+                        <conditions></conditions>
+                    </pub_format_id>
+                    <pub_issue_pages>
+                        <type>text</type>
+                        <title>Number of pages</title>
+                        <description>Total number of pages.</description>
+                        <required>1</required>
+                        <filters>StripTags|RemoveBadChars</filters>
+                        <conditions></conditions>
+                    </pub_issue_pages>
+                    <pub_languages>
+                        <type>select</type>
+                        <title>Languages</title>
+                        <description>Languages content is written in.</description>
+                        <required></required>
+                        <filters></filters>
+                        <conditions></conditions>
+                        <custom>multiple</custom>
+                    </pub_languages>
+                    <pub_issue_description>
+                        <type>textarea</type>
+                        <title>Description</title>
+                        <description>Notes about the current issue.</description>
+                        <required></required>
+                        <i18n>1</i18n>
+                        <filters>StripTags</filters>
+                        <conditions></conditions>
+                    </pub_issue_description>
+                </pub_issue>
+            </form>
+        </pub>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- Pub module settings -->
+		<pub>
+			<form>
+				<pub>
+					<pub_title>
+						<type>text</type>
+						<title>Title</title>
+						<description>Title of the publication.</description>
+						<required>1</required>
+						<filters>StripTags</filters>
+						<conditions></conditions>
+					</pub_title>
+					<pub_title_sort>
+						<type>text</type>
+						<title>Sorting title</title>
+						<description>Used for alphabetical sorting of the publications list. For example for "The Safety Pin" it would be "Safety Pin, The". Leave blank if it's
+							the same as the title.</description>
+						<required></required>
+						<filters>StripTags</filters>
+						<conditions></conditions>
+					</pub_title_sort>
+					<pub_type_id>
+						<type>select</type>
+						<title>Type</title>
+						<description>Publication type.</description>
+						<required>1</required>
+						<filters></filters>
+						<conditions></conditions>
+					</pub_type_id>
+					<country_code>
+						<type>select</type>
+						<title>Country</title>
+						<description>Country of origin.</description>
+						<required>1</required>
+						<filters></filters>
+						<conditions></conditions>
+					</country_code>
+					<pub_description>
+						<type>textarea</type>
+						<title>Description</title>
+						<description>General notes about the publication.</description>
+						<required></required>
+						<i18n>1</i18n>
+						<filters>StripTags</filters>
+						<conditions></conditions>
+					</pub_description>
+				</pub>
+				<pub_issue>
+				    <pub_list>
+				        <type>select</type>
+						<title>Publications</title>
+						<description>Select one or more publications this issue belongs to.</description>
+						<required>1</required>
+						<filters></filters>
+						<conditions></conditions>
+						<custom>multiple</custom>
+				    </pub_list>
+				    <pub_issue_title>
+				        <type>text</type>
+						<title>Issue title</title>
+						<description>Title and number eg "Profane Existence #13".</description>
+						<required>1</required>
+						<filters>StripTags</filters>
+						<conditions></conditions>
+				    </pub_issue_title>
+				    <pub_issue_year>
+				        <type>text</type>
+						<title>Year</title>
+						<description>Year the issue was published.</description>
+						<required></required>
+						<filters>StripTags|RemoveBadChars</filters>
+						<conditions>IsInteger</conditions>
+				    </pub_issue_year>
+				    <pub_layout_type_id>
+				        <type>select</type>
+						<title>Layout type</title>
+						<description></description>
+						<required>1</required>
+						<filters></filters>
+						<conditions></conditions>
+				    </pub_layout_type_id>
+				    <pub_duplication_type_id>
+				        <type>select</type>
+						<title>Duplication type</title>
+						<description></description>
+						<required>1</required>
+						<filters></filters>
+						<conditions></conditions>
+				    </pub_duplication_type_id>
+				     <pub_format_id>
+				        <type>select</type>
+						<title>Format</title>
+						<description>Issue format.</description>
+						<required>1</required>
+						<filters></filters>
+						<conditions></conditions>
+				    </pub_format_id>
+				    <pub_issue_pages>
+				        <type>text</type>
+						<title>Number of pages</title>
+						<description>Total number of pages.</description>
+						<required>1</required>
+						<filters>StripTags|RemoveBadChars</filters>
+						<conditions></conditions>
+				    </pub_issue_pages>
+				    <pub_languages>
+				        <type>select</type>
+						<title>Languages</title>
+						<description>Languages content is written in.</description>
+						<required></required>
+						<filters></filters>
+						<conditions></conditions>
+						<custom>multiple</custom>
+				    </pub_languages>
+				    <pub_issue_description>
+						<type>textarea</type>
+						<title>Description</title>
+						<description>Notes about the current issue.</description>
+						<required></required>
+						<i18n>1</i18n>
+						<filters>StripTags</filters>
+						<conditions></conditions>
+					</pub_issue_description>
+				</pub_issue>
+			</form>
+		</pub>
+	</prod>
+
+</config>
+<!-- $Id$ -->

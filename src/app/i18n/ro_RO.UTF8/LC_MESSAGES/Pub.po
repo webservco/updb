@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pub $Id$\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-25 09:41+0100\n"
+"PO-Revision-Date: 2013-09-25 09:41+0100\n"
+"Last-Translator: Radu Maier <radu@webserv.co>\n"
+"Language-Team: WebServ.Co <radu@webserv.co>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;___:1,2;title;description;"
+"keywords;content\n"
+"X-Poedit-Basepath: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/mod/"
+"Pub/\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/"
+"ctrl/Pub\n"
+"X-Poedit-SearchPath-2: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/"
+"etc/mod/Pub\n"
+"X-Poedit-SearchPath-3: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/"
+"opt/tpl/Webapp/Pub\n"
+
+#: Pub.mod.php:90 Pub.mod.php:334
+msgid "Error saving details data."
+msgstr ""
+
+#: Pub.mod.php:98 Pub.mod.php:367
+msgid "Error saving main data."
+msgstr ""
+
+#: Pub.mod.php:350 Pub.mod.php:357
+msgid "Error saving content data."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Pub/App.ctrl.php:40
+msgid "Publications list"
+msgstr "Lista publicații"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Pub/App.ctrl.php:55
+msgid "Issues list"
+msgstr "Lista ediții"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Pub/Edit.ctrl.php:42
+msgid "Add a publication to the database."
+msgstr "Adaugă o publicație în baza de date"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Pub/Edit.ctrl.php:63
+msgid "Edit publication."
+msgstr "Editează publicație"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Pub/Edit.ctrl.php:84
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:83
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubview.tpl.php:57
+msgid "Add issue"
+msgstr "Adaugă ediție"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Pub/Edit.ctrl.php:107
+msgid "Edit publication issue."
+msgstr "Editează ediție"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/ctrl/Pub/Edit.ctrl.php:216
+msgid "Success"
+msgstr "Succes"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_edit.tpl.php:11
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_images_edit.tpl.php:9
+msgid "Error"
+msgstr "Erorae"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_edit.tpl.php:61
+msgid "Please select"
+msgstr "Selectează"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_edit.tpl.php:166
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_images_edit.tpl.php:33
+msgid "Submit"
+msgstr "Trimite"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_edit.tpl.php:170
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_images_edit.tpl.php:37
+msgid "Reset"
+msgstr "Resetează"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_edit.tpl.php:182
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_images_edit.tpl.php:60
+msgid "Back"
+msgstr "Înapoi"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:15
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:104
+msgid "Format"
+msgstr "Format"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:16
+msgid "Layout"
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:17
+msgid "Duplication"
+msgstr "Duplicare"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:18
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:80
+msgid "Year"
+msgstr "An"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:19
+msgid "Pages"
+msgstr "Pagini"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:28
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:120
+msgid "Languages"
+msgstr "Limbi"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:81
+msgid "Modify issue"
+msgstr "Modifică ediție"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:85
+msgid "Manage issue images"
+msgstr "Administrează imagini ediție"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:91
+msgid "View all issues"
+msgstr "Vezi toate edițiile"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:94
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubview.tpl.php:65
+msgid "View all publications"
+msgstr "Vezi toate publicațiile"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:100
+msgid "Lists"
+msgstr "Liste"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:104
+msgid "This issue is in the following lists"
+msgstr "Această ediția are următoarele liste"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:116
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:144
+msgid "No lists"
+msgstr "Nu sunt liste"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:119
+msgid "Your lists"
+msgstr "Listele tale"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:132
+msgid "already in list"
+msgstr "deja în listă"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:135
+msgid "add"
+msgstr "adaugă"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:149
+msgid "Login"
+msgstr "Autentificare"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:149
+msgid "or"
+msgstr "sau"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:150
+msgid "register"
+msgstr "înregistrare"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubissueview.tpl.php:150
+msgid "to manage your lists"
+msgstr "pentru a administra listele"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubview.tpl.php:18
+msgid "Publication images"
+msgstr "Imagini publicație"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubview.tpl.php:30
+msgid "Publication issues"
+msgstr "Ediții publicație"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubview.tpl.php:44
+msgid "pages"
+msgstr "pagini"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubview.tpl.php:50
+msgid "No issues"
+msgstr "Nu sunt ediții"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubview.tpl.php:59
+msgid "Modify publication"
+msgstr "Modifică publicație"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pubview.tpl.php:61
+msgid "Manage publication images"
+msgstr "Administrează imagini publicație"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/pub_images_edit.tpl.php:52
+msgid "Delete"
+msgstr "Șterge"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/publist.tpl.php:22
+msgid "issues"
+msgstr "ediții"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/opt/tpl/Webapp/Pub/publist.tpl.php:49
+msgid "Add publication"
+msgstr "Adaugă publicație"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:19
+msgid "Title"
+msgstr "Titlu"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:20
+msgid "Title of the publication."
+msgstr "Titlul publicației"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:27
+msgid "Sorting title"
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:28
+msgid ""
+"Used for alphabetical sorting of the publications list. For example for "
+"\"The Safety Pin\" it would be \"Safety Pin, The\". Leave blank if it's\n"
+"\t\t\t\t\t\t\tthe same as the title."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:36
+msgid "Type"
+msgstr "Tip"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:37
+msgid "Publication type."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:44
+msgid "Country"
+msgstr "Țara"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:45
+msgid "Country of origin."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:52
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:129
+msgid "Description"
+msgstr "Descriere"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:53
+msgid "General notes about the publication."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:63
+msgid "Publications"
+msgstr "Publicații"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:64
+msgid "Select one or more publications this issue belongs to."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:72
+msgid "Issue title"
+msgstr "Titlul ediției"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:73
+msgid "Title and number eg \"Profane Existence #13\"."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:81
+msgid "Year the issue was published."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:88
+msgid "Layout type"
+msgstr "Tip layout"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:96
+msgid "Duplication type"
+msgstr "Tipul de duplicare"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:105
+msgid "Issue format."
+msgstr "Formatul publicației."
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:112
+msgid "Number of pages"
+msgstr "Număr pagini"
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:113
+msgid "Total number of pages."
+msgstr "Numărul total de pagini."
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:121
+msgid "Languages content is written in."
+msgstr ""
+
+#: /home/radu/Documents/Projects/Eclipse/ws_UPDb/src/app/etc/mod/Pub/pub.cfg.xml:130
+msgid "Notes about the current issue."
+msgstr "Note despre ediția curentă"

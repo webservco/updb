@@ -1,0 +1,474 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WEb $Id: WEb.po 112 2013-08-02 06:02:35Z radu $\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-13 23:56+0100\n"
+"PO-Revision-Date: 2013-03-13 23:56+0100\n"
+"Last-Translator: Radu Maier <radu@webserv.co>\n"
+"Language-Team: WebServ.Co <radu@webserv.co>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;___:1,2\n"
+"X-Poedit-Basepath: /home/radu/Documents/Projects/Eclipse/ws_WEb/src/WEb/\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: /home/radu/Documents/Projects/Eclipse/ws_WEb/extra/test/cases/WEb\n"
+
+#: lib/Object/Object.lib.php:173
+#, php-format
+msgid "%s object: Skipping configuration file \"%s\" (not found)."
+msgstr "Obiectul %s : Sărit peste fișierul de configurare \"%s\" (nu a fost găsit)."
+
+#: lib/Object/Object.lib.php:190
+#, php-format
+msgid "%s object: Loading configuration file \"%s\"."
+msgstr "Obiectul %s: Încărcare fișier de configurare \"%s\"."
+
+#: lib/Error/Error.lib.php:67
+msgid "Error library: Registering as error handler."
+msgstr "Biblioteca Error: Înregistrare ca error handler."
+
+#: lib/Error/Error.lib.php:81
+msgid "Error library: Restoring default error handler."
+msgstr "Biblioteca Error: Restaurare error handler implicit."
+
+#: lib/Error/Error.lib.php:127
+msgid "The application made a boo boo:"
+msgstr "Aplicația a facut un boo boo:"
+
+#: lib/Error/Error.lib.php:143
+#, php-format
+msgid "Code: %s"
+msgstr "Cod: %s"
+
+#: lib/Error/Error.lib.php:148
+#, php-format
+msgid "Severity: %s"
+msgstr "Gravitate: %s"
+
+#: lib/Error/Error.lib.php:153
+#, php-format
+msgid "File: %s"
+msgstr "Fișier: %s"
+
+#: lib/Error/Error.lib.php:158
+#, php-format
+msgid "Line: %s"
+msgstr "Linie: %s"
+
+#: lib/Error/Error.lib.php:168
+msgid "Trace:"
+msgstr "Trasare:"
+
+#: lib/Error/Error.lib.php:202
+msgid "Error"
+msgstr "Eroare"
+
+#: lib/Error/Error.lib.php:203
+msgid "The application made a boo boo."
+msgstr "Aplicația a facut un boo boo."
+
+#: lib/Error/Error.lib.php:204
+msgid "But there is no reason to panic."
+msgstr "Dar nu există nici un motiv de panică."
+
+#: lib/Error/Error.lib.php:205
+msgid "The person responsible has been notified."
+msgstr "Persoana responsabilă a fost notificată."
+
+#: lib/Error/Error.lib.php:206
+msgid "Please come back later."
+msgstr "Vă rugăm reveniți mai târziu."
+
+#: lib/Error/Error.lib.php:207
+#, php-format
+msgid "The friendly server at %s."
+msgstr "Serverul prietenos de la %s."
+
+#: lib/Controller/Controller.lib.php:125
+#, php-format
+msgid "Controller library: Module \"%s\" loading."
+msgstr "Biblioteca Controller: Încărcare modul \"%s\"."
+
+#: lib/Controller/Controller.lib.php:165
+#, php-format
+msgid "Controller library: Output library \"%s\" loading."
+msgstr "Biblioteca Controller: Încărcare bibliotecă output \"%s\"."
+
+#: lib/Module/Module.lib.php:108
+#, php-format
+msgid "%s module: Skipping configuration file \"%s\" (not found)."
+msgstr "Modulul %s : Sărit peste fișierul de configurare \"%s\" (nu a fost găsit)."
+
+#: lib/Module/Module.lib.php:125
+#, php-format
+msgid "%s module: Loading configuration file \"%s\"."
+msgstr "Modulul %s: Încărcare fișier de configurare \"%s\"."
+
+#: lib/Router/Router.lib.php:98
+msgid "Router library: Initializing routing."
+msgstr "Biblioteca Router: Inițializare rutare."
+
+#: lib/Router/Router.lib.php:186
+msgid "Router library: Parsed request query."
+msgstr "Biblioteca Router: Parsare cerere de interogare."
+
+#: lib/Router/Router.lib.php:213
+msgid "Router library: Removing fake extension."
+msgstr "Biblioteca Router: Înlăturare extensie falsă."
+
+#: lib/Router/Router.lib.php:281
+msgid "Router library: Performing PATH_INFO routing."
+msgstr "Biblioteca Router: Efecturare rutare PATH_INFO."
+
+#: lib/Router/Router.lib.php:292
+msgid "Router library: Performing ORIG_PATH_INFO routing."
+msgstr "Biblioteca Router: Efecturare rutare ORIG_PATH_INFO."
+
+#: lib/Router/Router.lib.php:303
+msgid "Router library: Performing REQUEST_URI routing."
+msgstr "Biblioteca Router: Efecturare rutare REQUEST_URI."
+
+#: lib/Router/Router.lib.php:318
+msgid "Router library: Performing QUERY_STRING routing."
+msgstr "Biblioteca Router: Efecturare rutare QUERY_STRING."
+
+#: lib/Router/Router.lib.php:506
+msgid "Router library: Parsing custom routes."
+msgstr "Biblioteca Router: Parsare rute custom."
+
+#: lib/Router/Router.lib.php:518
+msgid "Router library: Empty request. Setting to default."
+msgstr "Biblioteca Router: Cerere goală. Setare valoare implicită."
+
+#: lib/Router/Router.lib.php:579
+msgid "Router library: Found matching custom route."
+msgstr "Biblioteca Router: Găsit rută custom potrivită."
+
+#: lib/Router/Router.lib.php:585
+msgid "Router library: No matching custom route found."
+msgstr "Biblioteca Router: Nu am găsit nici o rută custom potrivită."
+
+#: lib/Router/Router.lib.php:612
+msgid "Router library: Setting default route."
+msgstr "Biblioteca Router: Setare rută implicită."
+
+#: lib/Router/Router.lib.php:621
+msgid "Router library: Setting custom route."
+msgstr "Biblioteca Router: Setare rută custom."
+
+#: lib/Router/Router.lib.php:650
+msgid "Router library: Emptying $_GET array."
+msgstr "Biblioteca Router: Golire matrice $_GET."
+
+#: lib/Router/Router.lib.php:747
+msgid "Router library: Request parsing done."
+msgstr "Biblioteca Router: Parsare cerere încheiată."
+
+#: lib/Router/Router.lib.php:784
+msgid "Router library: Request formatting done."
+msgstr "Biblioteca Router: Formatare cerere încheiată."
+
+#: lib/Router/Router.lib.php:786
+msgid "Router library: Routing complete."
+msgstr "Biblioteca Router: Rutare încheiată."
+
+#: lib/Iceget/Iceget.lib.php:110
+#, php-format
+msgid "Iceget Library: Station \"%s\" is not broadcasting."
+msgstr "Biblioteca Library: Postul \"%s\" nu emite."
+
+#: lib/Iceget/Iceget.lib.php:124
+msgid "Iceget Library: No Icecast stats URL set."
+msgstr "Biblioteca Iceget: Nu a fost setată adresa statisticilor Icecast."
+
+#: lib/Iceget/Iceget.lib.php:136
+msgid "Iceget Library: Error opening Icecast stats URL."
+msgstr "Biblioteca Iceget: Eroare deschidere adresa statistici Icecast."
+
+#: lib/Iceget/Iceget.lib.php:227
+#, php-format
+msgid "Iceget Library: %s station is broadcasting."
+msgid_plural "Iceget Library: %s stations are broadcasting."
+msgstr[0] "Biblioteca Iceget: Un post emite."
+msgstr[1] "Biblioteca Iceget: %s posturi emit."
+msgstr[2] "Biblioteca Iceget: %s de posturi emit."
+
+#: lib/Iceget/Iceget.lib.php:239
+msgid "Iceget Library: No station is broadcasting."
+msgstr "Biblioteca Iceget: Nici un post nu emite."
+
+#: lib/Library/Library.lib.php:89
+#, php-format
+msgid "%s object: Loading."
+msgstr "Obiectul %s: Încărcare."
+
+#: lib/Library/Library.lib.php:99
+#, php-format
+msgid "%s library: Loading."
+msgstr "Biblioteca %s: Încărcare."
+
+#: lib/Library/Library.lib.php:151
+#, php-format
+msgid "%s library: Skipping configuration file \"%s\" (not found)."
+msgstr "Biblioteca %s: Sărit peste fișierul de configurare \"%s\" (nu a fost gasit)."
+
+#: lib/Library/Library.lib.php:169
+#, php-format
+msgid "%s library: Loading configuration file \"%s\"."
+msgstr "Biblioteca %s: Încărcare fișier de configurare \"%s\"."
+
+#: lib/Output/Web.lib.php:53
+#: lib/Output/Phptal.lib.php:53
+msgid "Output library: Initializing output engine object."
+msgstr "Biblioteca Output: Inițializare obiect motor output."
+
+#: lib/Output/Web.lib.php:89
+#: lib/Output/Phptal.lib.php:113
+msgid "Output library: Rendering template."
+msgstr "Biblioteca Output: Randare template."
+
+#: lib/Output/Web.lib.php:103
+msgid "Output library: Template file not found: "
+msgstr "Biblioteca Output: Fișierul template nu a fost găsit:"
+
+#: lib/Output/Phptal.lib.php:171
+msgid "Output library: Setting data."
+msgstr "Biblioteca Output: Setare date."
+
+#: lib/Output/Output.lib.php:119
+#, php-format
+msgid "Output library: Skin directory set to \"%s\"."
+msgstr "Biblioteca Output: Setat director skin \"%s\"."
+
+#: lib/Output/Output.lib.php:150
+msgid "Output library: Calling Set() method."
+msgstr "Biblioteca Output: Invocare metoda Set()."
+
+#: lib/Output/Output.lib.php:166
+msgid "Output library: Calling output engine Render() method."
+msgstr "Biblioteca Output: Invocare metoda Render() din motor output."
+
+#: lib/Output/Output.lib.php:208
+#, php-format
+msgid "Output library: Loading external output engine \"%s\"."
+msgstr "Biblioteca Output: Încărcare motor extern de output \"%s\"."
+
+#: lib/Output/Output.lib.php:225
+#: lib/Output/Output.lib.php:285
+#, php-format
+msgid "Output Library: Error loading external output engine \"%s\"."
+msgstr "Biblioteca Output: Eroare la încărcarea motorului extern de output \"%s\"."
+
+#: lib/Output/Output.lib.php:228
+msgid "Configuration file not found."
+msgstr "Fișierul de configurare nu a fost găsit."
+
+#: lib/Output/Output.lib.php:270
+#, php-format
+msgid "Output library: External output engine \"%s\" found in \"%s\" path."
+msgstr "Biblioteca Output: Motorul extern de output \"%s\" a fost găsit în calea \"%s\"."
+
+#: lib/Output/Output.lib.php:288
+msgid "File not found."
+msgstr "Fișierul nu a fost găsit."
+
+#: lib/Database/Postgresql.lib.php:72
+#: lib/Database/Mysqli.lib.php:101
+#: lib/Database/Mysql.lib.php:70
+msgid "Database library: Error connecting to database management server."
+msgstr "Biblioteca Database: Eroare de conectare la serverul de gestionare a bazelor de date."
+
+#: lib/Database/Postgresql.lib.php:90
+#: lib/Database/Mysqli.lib.php:119
+#: lib/Database/Mysql.lib.php:100
+#: lib/Database/Pdo.lib.php:108
+#: lib/Database/Sqlite3.lib.php:97
+#, php-format
+msgid "Database library: Database connection opened (driver: %s)."
+msgstr "Biblioteca Database: Conexiunea la baza de date deschisă (driver: %s)."
+
+#: lib/Database/Mysqli.lib.php:300
+msgid "Database Library: Preparing create query."
+msgstr "Biblioteca Database: Pregătire interogare de creare."
+
+#: lib/Database/Mysqli.lib.php:430
+msgid "Database Library: Preparing retrieve query."
+msgstr "Biblioteca Database: Pregătire interogare de recuperare."
+
+#: lib/Database/Mysqli.lib.php:587
+msgid "Database Library: Preparing update query."
+msgstr "Biblioteca Database: Pregătire interogare de actualizare."
+
+#: lib/Database/Mysqli.lib.php:637
+msgid "Database Library: Preparing delete query."
+msgstr "Biblioteca Database: Pregătire interogare de ștergere."
+
+#: lib/Database/Mysql.lib.php:82
+#: lib/Database/Sqlite3.lib.php:79
+#, php-format
+msgid "Database library: Error opening database %s."
+msgstr "Biblioteca Database: Eroare deschidere bază de date %s."
+
+#: lib/Database/Sqlite3.lib.php:58
+msgid "Database library: Database file is not readable."
+msgstr "Biblioteca Database: Fișierul bazei de date nu poate fi citit."
+
+#: lib/App/App.lib.php:95
+msgid "Application: Booting."
+msgstr "Aplicație: Pornire."
+
+#: lib/App/App.lib.php:97
+msgid "Core library: Loading."
+msgstr "Biblioteca Core: Încărcare."
+
+#: lib/App/App.lib.php:99
+msgid "Config library: Loading."
+msgstr "Biblioteca Config: Încărcare."
+
+#: lib/App/App.lib.php:101
+msgid "Config library: Configuration settings loaded."
+msgstr "Biblioteca Config: Setările de configurație încărcate."
+
+#: lib/App/App.lib.php:103
+msgid "I18n library: Loading."
+msgstr "Biblioteca I18n: Încărcare."
+
+#: lib/App/App.lib.php:105
+msgid "Log library: Loading."
+msgstr "Biblioteca Log: Încărcare."
+
+#: lib/App/App.lib.php:148
+msgid "User object: Initialization complete."
+msgstr "Obiectul User: Inițializare completă."
+
+#: lib/App/App.lib.php:156
+msgid "Config library: Setting i18n keys."
+msgstr "Biblioteca Config: Setare chei i18n."
+
+#: lib/App/App.lib.php:163
+#, php-format
+msgid "I18n library: Added domain \"%s\"."
+msgstr "Biblioteca I18n: Adăugat domeniu \"%s\"."
+
+#: lib/App/App.lib.php:170
+#, php-format
+msgid "I18n library: Loaded domain \"%s\"."
+msgstr "Biblioteca I18n: Încărcat domeniu \"%s\"."
+
+#: lib/App/App.lib.php:172
+msgid "Application: Booting complete."
+msgstr "Aplicație: Pornire completă."
+
+#: lib/App/App.lib.php:181
+msgid "Application: Booting failed."
+msgstr "Aplicație: Pornire eșuată."
+
+#: lib/App/App.lib.php:195
+msgid "Application: Running dispatcher."
+msgstr "Aplicație: Rulare executare."
+
+#: lib/App/App.lib.php:208
+#, php-format
+msgid "Application: Module \"%s\" not found."
+msgstr "Aplicație: Modulul \"%s\" nu a fost găsit."
+
+#: lib/App/App.lib.php:237
+#, php-format
+msgid "Application: Controller \"%s\" not found."
+msgstr "Aplicație: Controllerul \"%s\" nu a fost găsit."
+
+#: lib/App/App.lib.php:274
+#, php-format
+msgid "Application: Action \"%s\" not found."
+msgstr "Aplicație: Acțiunea \"%s\" nu a fost găsită."
+
+#: lib/App/App.lib.php:288
+#, php-format
+msgid "Application: Calling action \"%s\" from \"%s\" (\"%s\")."
+msgstr "Aplicație: Invocare acțiune \"%s\" din \"%s\" (\"%s\")."
+
+#: lib/App/App.lib.php:313
+msgid "Application: Dispatcher done."
+msgstr "Aplicație: Executare încheiată."
+
+#: lib/App/App.lib.php:320
+msgid "Application: Shutdown."
+msgstr "Aplicație: Închidere."
+
+#: lib/App/App.lib.php:371
+msgid "Application: Loading error message."
+msgstr "Aplicație: Încărcare mesaj de eroare."
+
+#: lib/Security/Security.lib.php:77
+msgid "Security library: Initializing input sanitization."
+msgstr "Biblioteca Security: Inițializare sanitizare input."
+
+#: lib/Security/Security.lib.php:98
+#, php-format
+msgid "Security library: %s GET request sanitized."
+msgid_plural "Security library: %s GET requests sanitized."
+msgstr[0] "Biblioteca Security: %s cerere GET curățată."
+msgstr[1] "Biblioteca Security: %s cereri GET curățate."
+msgstr[2] "Biblioteca Security: %s de cereri GET curățate."
+
+#: lib/Security/Security.lib.php:130
+#, php-format
+msgid "Security library: %s POST request sanitized."
+msgid_plural "Security library: %s POST requests sanitized."
+msgstr[0] "Biblioteca Security: %s cerere POST curățată."
+msgstr[1] "Biblioteca Security: %s cereri POST curățate."
+msgstr[2] "Biblioteca Security: %s de cereri POST curățate."
+
+#: lib/Security/Security.lib.php:140
+msgid "Security library: Sanitize complete."
+msgstr "Biblioteca Security: Curățare completă."
+
+#: lib/Session/Session.lib.php:153
+msgid "Session library: Started new session."
+msgstr "Biblioteca Session: Pornire sesiune nouă."
+
+#: lib/Form/Form.lib.php:386
+#, php-format
+msgid "Form Library: Validation method \"%s\" not found."
+msgstr "Biblioteca Form: Metoda de validare \"%s\" nu a fost găsită."
+
+#: lib/Form/Form.lib.php:498
+#, php-format
+msgid "Form Library: Filter method \"%s\" not found."
+msgstr "Biblioteca Form: Metoda de filtrare \"%s\" nu a fost găsită."
+
+#: lib/Core/Core.lib.php:312
+#, php-format
+msgid "Core library: Database library \"%s\" loading."
+msgstr "Biblioteca Core: Încărcare bibliotecă Database \"%s\"."
+
+#: lib/Core/Core.lib.php:815
+#, php-format
+msgid "Core Library: Class \"%s\" not found."
+msgstr "Biblioteca Controller: Clasa \"%s\" nu a fost găsită."
+
+#: lib/Core/Core.lib.php:1241
+msgid "License Error: Your license key is invalid or expired."
+msgstr "Eroare Licență: Cheia de licență este invalidă sau expirată."
+
+#: lib/Core/Core.lib.php:1253
+#, php-format
+msgid "License Status: %s."
+msgstr "Status Licență: %s."
+
+#: lib/Core/Core.lib.php:1281
+msgid "License Error: Your license key is missing."
+msgstr "Eroare Licență: Cheia de licență lipsește."
+
+#: /home/radu/Documents/Projects/Eclipse/ws_WEb/extra/test/cases/WEb/lib/I18n/I18nTest.lib.php:136
+#: /home/radu/Documents/Projects/Eclipse/ws_WEb/extra/test/cases/WEb/lib/I18n/I18nTest.lib.php:144
+#: /home/radu/Documents/Projects/Eclipse/ws_WEb/extra/test/cases/WEb/lib/I18n/I18nTest.lib.php:152
+msgid "Hello World!"
+msgstr "Salut Lume!"
+

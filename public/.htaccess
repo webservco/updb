@@ -1,0 +1,87 @@
+# $Id$
+
+# Disable directory browsing.
+<IfModule mod_autoindex.c>
+	Options -Indexes
+</IfModule>
+
+# Check if rewrite engine is available.
+<IfModule mod_rewrite.c>
+
+	# Enable URL rewriting
+	#Options +FollowSymlinks
+	RewriteEngine On
+	
+	# Change to reflect application web directory path.
+	RewriteBase /
+	
+	# Disable rewriting for existing files and directories.
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	# Enable single point of access (index.php)
+	RewriteRule (.*) index.php [PT,L]
+
+</IfModule>
+
+# Prevent direct file access to some files.
+# *.env			configuration file
+# *.cfg.xml		configuration file
+# *.int.php		interface file
+# *.lib.php		library file
+# *.mod.php		module file
+# *.ctrl.php	controller file
+# *.ext.php		extension files
+# *.mo			i18n file
+# *.po			i18n file
+# *.tpl			template files
+# *.tpl.php		template files
+# *.log			log file
+# *.tmp			temporary files
+<FilesMatch "\.(env|cfg.xml|int.php|lib.php|mod.php|ctrl.php|ext.php|mo|po|tpl|tpl.php|log|tmp)$">
+	Order allow,deny
+	Deny from all
+	Satisfy All
+</FilesMatch>
+
+# Prevent direct access to some files.
+# sess_*		- session files
+# temp_*		- temporary files
+<FilesMatch "^(sess_|temp_)">
+	Order allow,deny
+	Deny from all
+	Satisfy All
+</FilesMatch>
+
+# Prevent web access to .htaccess files.
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+Order allow,deny
+Deny from all
+Satisfy All
+</Files>
+
+# Send the correct MIME type for .htc files.
+AddType text/x-component .htc
+AddType text/cache-manifest .appcache
+
+<FilesMatch "\.(htm|html|php)$">
+    <IfModule mod_headers.c>
+        BrowserMatch MSIE ie
+        Header set X-UA-Compatible "IE=Edge,chrome=1" env=ie
+    </IfModule>
+</FilesMatch>
+
+# Prevent some of the mobile network providers from modifying the content of
+# your site: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.5.
+
+<IfModule mod_headers.c>
+	Header set Cache-Control "no-transform"
+</IfModule>
+
+# Use UTF-8 encoding for anything served as `text/html` or `text/plain`.
+AddDefaultCharset utf-8
+
+# Force UTF-8 for certain file formats.
+<IfModule mod_mime.c>
+    AddCharset utf-8 .atom .css .js .json .rss .vtt .webapp .xml
+</IfModule>

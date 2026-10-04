@@ -1,0 +1,13 @@
+# Auto detect text files and perform LF normalization
+* text eol=lf
+# Turn off normalization for binary files
+*.eot binary
+*.gz binary
+*.jpg binary
+*.mwb binary
+*.ods binary
+*.png binary
+*.ttf binary
+*.zip binary
+*.woff binary
+*.xcf binary

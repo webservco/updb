@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+		<!-- Session library settings -->
+		<session>
+			<!-- Session expire time (in seconds) -->
+			<expire>36000</expire>
+			<!-- Session cookie persistance (in days) -->
+			<lifetime>14</lifetime>
+			<!-- Path where the session cookies will work. Use slash for all -->
+			<path>/</path>
+			<!-- Session cookies domain -->
+			<domain></domain>
+			<!-- Use SSL for session cookies  -->
+			<secure>0</secure>
+			<!-- Set httponly flag? -->
+			<httponly>1</httponly>
+			<!-- Multiple persistent sessions for the same user?  -->
+			<multiple>1</multiple>
+			<!-- Use an unique session token? -->
+			<token>1</token>
+		</session>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+		<!-- Session library settings -->
+		<session>
+			<!-- Session expire time (in seconds) -->
+			<expire>36000</expire>
+			<!-- Session cookie persistance (in days) -->
+			<lifetime>14</lifetime>
+			<!-- Path where the session cookies will work. Use slash for all -->
+			<path>/</path>
+			<!-- Session cookies domain -->
+			<domain></domain>
+			<!-- Use SSL for session cookies  -->
+			<secure>0</secure>
+			<!-- Set httponly flag? -->
+			<httponly>1</httponly>
+			<!-- Multiple persistent sessions for the same user?  -->
+			<multiple>1</multiple>
+			<!-- Use an unique session token? -->
+			<token>1</token>
+		</session>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- Session library settings -->
+		<session>
+			<!-- Session expire time (in seconds) -->
+			<expire>36000</expire>
+			<!-- Session cookie persistance (in days) -->
+			<lifetime>14</lifetime>
+			<!-- Path where the session cookies will work. Use slash for all -->
+			<path>/</path>
+			<!-- Session cookies domain -->
+			<domain></domain>
+			<!-- Use SSL for session cookies  -->
+			<secure>0</secure>
+			<!-- Set httponly flag? -->
+			<httponly>1</httponly>
+			<!-- Multiple persistent sessions for the same user?  -->
+			<multiple>1</multiple>
+			<!-- Use an unique session token? -->
+			<token>1</token>
+		</session>
+	</prod>
+</config>
+<!-- $Id$ -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+		<!-- Log library settings -->
+		<log>
+			<!-- debug, info, notice, warning, error, crit, alert, emerg -->
+			<level>info</level>
+			<extension>.log</extension>
+			<dateformat>Y-m-d H:i:s:u</dateformat>
+			<reset>0</reset>
+		</log>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+		<!-- Log library settings -->
+		<log>
+			<!-- debug, info, notice, warning, error, crit, alert, emerg -->
+			<level>error</level>
+			<extension>.log</extension>
+			<dateformat>Y-m-d H:i:s:u</dateformat>
+			<reset>0</reset>
+		</log>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- Log library settings -->
+		<log>
+			<!-- debug, info, notice, warning, error, crit, alert, emerg -->
+			<level>debug</level>
+			<extension>.log</extension>
+			<dateformat>Y-m-d H:i:s:u</dateformat>
+			<reset>0</reset>
+		</log>
+	</prod>
+</config>
+<!-- $Id$ -->

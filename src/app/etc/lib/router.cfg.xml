@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+		<!-- Default configuration -->
+		<router>
+			<default>
+				<module>Content</module>
+				<controller>App</controller>
+				<action>Home</action>
+			</default>
+		</router>
+		
+		<!-- SEO settings -->
+		<seo>
+			<full>1</full>
+			<extension>.html</extension>
+			<extension>.htm</extension>
+			<extension>.appcache</extension>
+		</seo>
+		
+		<!-- Custom routes configuration -->
+		<route>
+			<!-- "index" is the default route. It doesn't have to be the fist one. -->
+			<name>index</name>
+			<value>Content/App/Home</value>
+		</route>
+		
+	</dev>
+	<!-- Test Environment -->
+	<test>
+		
+	</test>
+	<!-- Production Environment -->
+	<prod>
+	    <!-- Default configuration -->
+		<router>
+			<default>
+				<module>Content</module>
+				<controller>App</controller>
+				<action>Home</action>
+			</default>
+		</router>
+		
+		<!-- SEO settings -->
+		<seo>
+			<full>1</full>
+			<extension>.html</extension>
+			<extension>.htm</extension>
+			<extension>.appcache</extension>
+		</seo>
+		
+		<!-- Custom routes configuration -->
+		<route>
+			<!-- "index" is the default route. It doesn't have to be the fist one. -->
+			<name>index</name>
+			<value>Content/App/Home</value>
+		</route>
+		
+	</prod>
+</config>
+<!-- $Id$ -->

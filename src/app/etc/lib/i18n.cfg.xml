@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <!-- I18n library settings -->
+        <i18n>
+            <locale>en_US</locale>
+            <keys>title,description,keywords,content</keys>
+            <keys_app>text</keys_app>
+            <langs>
+                <item>
+                    <lang>en</lang>
+                    <locale>en_US</locale>
+                </item>
+                <item>
+                    <lang>ro</lang>
+                    <locale>ro_RO.UTF8</locale>
+                </item>
+            </langs>
+        </i18n>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- I18n library settings -->
+		<i18n>
+			<locale>en_US</locale>
+			<keys>title,description,keywords,content</keys>
+			<keys_app>text</keys_app>
+			<langs>
+				<item>
+					<lang>en</lang>
+					<locale>en_US</locale>
+				</item>
+				<item>
+					<lang>ro</lang>
+					<locale>ro_RO.UTF8</locale>
+				</item>
+			</langs>
+		</i18n>
+	</prod>
+</config>
+<!-- $Id$ -->

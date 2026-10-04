@@ -1,0 +1,420 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WEb $Id: WEb.po 112 2013-08-02 06:02:35Z radu $\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-13 23:53+0100\n"
+"PO-Revision-Date: 2012-03-13 23:53+0100\n"
+"Last-Translator: Radu Maier <radu@webserv.co>\n"
+"Language-Team: WebServ.Co <radu@webserv.co>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;___:1,2\n"
+"X-Poedit-Basepath: /home/radu/Documents/Projects/Eclipse/ws_WEb/src/WEb/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: /home/radu/Documents/Projects/Eclipse/ws_WEb/extra/test/cases/WEb\n"
+
+#: src/WEb/lib/Library/Library.lib.php:81
+#, php-format
+msgid "%s object: Loading."
+msgstr "%s object: Loading."
+
+#: src/WEb/lib/Library/Library.lib.php:86
+#, php-format
+msgid "%s library: Loading."
+msgstr "%s library: Loading."
+
+#: src/WEb/lib/Library/Library.lib.php:132
+#, php-format
+msgid "%s library: Skipping configuration file \"%s\" (not found)."
+msgstr "%s library: Skipping configuration file \"%s\" (not found)."
+
+#: src/WEb/lib/Library/Library.lib.php:144
+#, php-format
+msgid "%s library: Loading configuration file \"%s\"."
+msgstr "%s library: Loading configuration file \"%s\"."
+
+#: src/WEb/lib/Output/Phptal.lib.php:58
+#: src/WEb/lib/Output/Smarty.lib.php:51
+#: src/WEb/lib/Output/Web.lib.php:51
+msgid "Output library: Initializing output engine object."
+msgstr "Output library: Initializing output engine object."
+
+#: src/WEb/lib/Output/Phptal.lib.php:150
+#: src/WEb/lib/Output/Smarty.lib.php:116
+#: src/WEb/lib/Output/Web.lib.php:84
+msgid "Output library: Rendering template."
+msgstr "Output library: Rendering template."
+
+#: src/WEb/lib/Output/Phptal.lib.php:208
+#: src/WEb/lib/Output/Smarty.lib.php:152
+#: src/WEb/lib/Output/Output.lib.php:181
+msgid "Output library: Setting data."
+msgstr "Output library: Setting data."
+
+#: src/WEb/lib/Output/Output.lib.php:117
+#, php-format
+msgid "Output library: Skin directory set to \"%s\"."
+msgstr "Output library: Skin directory set to \"%s\"."
+
+#: src/WEb/lib/Output/Output.lib.php:146
+msgid "Output library: Calling Set() method."
+msgstr "Output library: Calling Set() method."
+
+#: src/WEb/lib/Output/Output.lib.php:160
+msgid "Output library: Calling output engine Render() method."
+msgstr "Output library: Calling output engine Render() method."
+
+#: src/WEb/lib/Output/Output.lib.php:205
+#: src/WEb/lib/Output/Output.lib.php:281
+#, php-format
+msgid "Output Library: Error loading external output engine \"%s\"."
+msgstr "Output Library: Error loading external output engine \"%s\"."
+
+#: src/WEb/lib/Output/Output.lib.php:210
+msgid "Configuration file not found."
+msgstr "Configuration file not found."
+
+#: src/WEb/lib/Output/Output.lib.php:239
+#, php-format
+msgid "Output library: External output engine \"%s\" found in \"%s\" path."
+msgstr "Output library: External output engine \"%s\" found in \"%s\" path."
+
+#: src/WEb/lib/Output/Output.lib.php:263
+#, php-format
+msgid "Output library: Loading external output engine \"%s\"."
+msgstr "Output library: Loading external output engine \"%s\"."
+
+#: src/WEb/lib/Output/Output.lib.php:285
+msgid "File not found."
+msgstr "File not found."
+
+#: src/WEb/lib/Output/Web.lib.php:105
+msgid "Output library: Template file not found: "
+msgstr "Output library: Template file not found: "
+
+#: src/WEb/lib/Controller/Controller.lib.php:121
+#, php-format
+msgid "Controller library: Module \"%s\" loading."
+msgstr "Controller library: Module \"%s\" loading."
+
+#: src/WEb/lib/Controller/Controller.lib.php:159
+#, php-format
+msgid "Controller library: Output library \"%s\" loading."
+msgstr "Controller library: Output library \"%s\" loading."
+
+#: src/WEb/lib/Error/Error.lib.php:63
+msgid "Error library: Registering as error handler."
+msgstr "Error library: Registering as error handler."
+
+#: src/WEb/lib/Error/Error.lib.php:76
+msgid "Error library: Restoring default error handler."
+msgstr "Error library: Restoring default error handler."
+
+#: src/WEb/lib/Error/Error.lib.php:113
+msgid "The application made a boo boo:"
+msgstr "The application made a boo boo:"
+
+#: src/WEb/lib/Error/Error.lib.php:128
+#, php-format
+msgid "Code: %s"
+msgstr "Code: %s"
+
+#: src/WEb/lib/Error/Error.lib.php:133
+#, php-format
+msgid "Severity: %s"
+msgstr "Severity: %s"
+
+#: src/WEb/lib/Error/Error.lib.php:138
+#, php-format
+msgid "File: %s"
+msgstr "File: %s"
+
+#: src/WEb/lib/Error/Error.lib.php:143
+#, php-format
+msgid "Line: %s"
+msgstr "Line: %s"
+
+#: src/WEb/lib/Error/Error.lib.php:152
+msgid "Trace:"
+msgstr "Trace:"
+
+#: src/WEb/lib/Error/Error.lib.php:183
+msgid "Error"
+msgstr "Error"
+
+#: src/WEb/lib/Error/Error.lib.php:183
+msgid "The application made a boo boo."
+msgstr "The application made a boo boo."
+
+#: src/WEb/lib/Error/Error.lib.php:183
+msgid "But there is no reason to panic."
+msgstr "But there is no reason to panic."
+
+#: src/WEb/lib/Error/Error.lib.php:183
+msgid "The person responsible has been notified."
+msgstr "The person responsible has been notified."
+
+#: src/WEb/lib/Error/Error.lib.php:183
+msgid "Please come back later."
+msgstr "Please come back later."
+
+#: src/WEb/lib/Error/Error.lib.php:183
+#, php-format
+msgid "The friendly server at %s."
+msgstr "The friendly server at %s."
+
+#: src/WEb/lib/Database/Mysql.lib.php:68
+#: src/WEb/lib/Database/Postgresql.lib.php:70
+#: src/WEb/lib/Database/Mysqli.lib.php:89
+msgid "Database library: Error connecting to database management server."
+msgstr "Database library: Error connecting to database management server."
+
+#: src/WEb/lib/Database/Mysql.lib.php:79
+#: src/WEb/lib/Database/Sqlite3.lib.php:74
+#, php-format
+msgid "Database library: Error opening database %s."
+msgstr "Database library: Error opening database %s."
+
+#: src/WEb/lib/Database/Mysql.lib.php:96
+#: src/WEb/lib/Database/Sqlite3.lib.php:91
+#: src/WEb/lib/Database/Postgresql.lib.php:87
+#: src/WEb/lib/Database/Mysqli.lib.php:106
+#: src/WEb/lib/Database/Pdo.lib.php:97
+#, php-format
+msgid "Database library: Database connection opened (driver: %s)."
+msgstr "Database library: Database connection opened (driver: %s)."
+
+#: src/WEb/lib/Database/Sqlite3.lib.php:56
+msgid "Database library: Database file is not readable."
+msgstr "Database library: Database file is not readable."
+
+#: src/WEb/lib/Database/Mysqli.lib.php:280
+msgid "Database Library: Preparing create query."
+msgstr "Database Library: Preparing create query."
+
+#: src/WEb/lib/Database/Mysqli.lib.php:405
+msgid "Database Library: Preparing retrieve query."
+msgstr "Database Library: Preparing retrieve query."
+
+#: src/WEb/lib/Database/Mysqli.lib.php:555
+msgid "Database Library: Preparing update query."
+msgstr "Database Library: Preparing update query."
+
+#: src/WEb/lib/Database/Mysqli.lib.php:604
+msgid "Database Library: Preparing delete query."
+msgstr "Database Library: Preparing delete query."
+
+#: src/WEb/lib/Database/Mysqli.lib.php:701
+msgid "Database Library: Preparing increment query."
+msgstr "Database Library: Preparing increment query."
+
+#: src/WEb/lib/Module/Module.lib.php:102
+#, php-format
+msgid "%s module: Skipping configuration file \"%s\" (not found)."
+msgstr "%s module: Skipping configuration file \"%s\" (not found)."
+
+#: src/WEb/lib/Module/Module.lib.php:114
+#, php-format
+msgid "%s module: Loading configuration file \"%s\"."
+msgstr "%s module: Loading configuration file \"%s\"."
+
+#: src/WEb/lib/App/App.lib.php:91
+msgid "Application: Booting."
+msgstr "Application: Booting."
+
+#: src/WEb/lib/App/App.lib.php:93
+msgid "Core library: Loading."
+msgstr "Core library: Loading."
+
+#: src/WEb/lib/App/App.lib.php:95
+msgid "Config library: Loading."
+msgstr "Config library: Loading."
+
+#: src/WEb/lib/App/App.lib.php:97
+msgid "Config library: Configuration settings loaded."
+msgstr "Config library: Configuration settings loaded."
+
+#: src/WEb/lib/App/App.lib.php:99
+msgid "I18n library: Loading."
+msgstr "I18n library: Loading."
+
+#: src/WEb/lib/App/App.lib.php:101
+msgid "Log library: Loading."
+msgstr "Log library: Loading."
+
+#: src/WEb/lib/App/App.lib.php:142
+msgid "User object: Initialization complete."
+msgstr "User object: Initialization complete."
+
+#: src/WEb/lib/App/App.lib.php:150
+msgid "Config library: Setting i18n keys."
+msgstr "Config library: Setting i18n keys."
+
+#: src/WEb/lib/App/App.lib.php:157
+#, php-format
+msgid "I18n library: Added domain \"%s\"."
+msgstr "I18n library: Added domain \"%s\"."
+
+#: src/WEb/lib/App/App.lib.php:164
+#, php-format
+msgid "I18n library: Loaded domain \"%s\"."
+msgstr "I18n library: Loaded domain \"%s\"."
+
+#: src/WEb/lib/App/App.lib.php:166
+msgid "Application: Booting complete."
+msgstr "Application: Booting complete."
+
+#: src/WEb/lib/App/App.lib.php:173
+msgid "Application: Booting failed."
+msgstr "Application: Booting failed."
+
+#: src/WEb/lib/App/App.lib.php:185
+msgid "Application: Running dispatcher."
+msgstr "Application: Running dispatcher."
+
+#: src/WEb/lib/App/App.lib.php:196
+#, php-format
+msgid "Application: Module \"%s\" not found."
+msgstr "Application: Module \"%s\" not found."
+
+#: src/WEb/lib/App/App.lib.php:221
+#, php-format
+msgid "Application: Controller \"%s\" not found."
+msgstr "Application: Controller \"%s\" not found."
+
+#: src/WEb/lib/App/App.lib.php:251
+#, php-format
+msgid "Application: Action \"%s\" not found."
+msgstr "Application: Action \"%s\" not found."
+
+#: src/WEb/lib/App/App.lib.php:262
+#, php-format
+msgid "Application: Calling action \"%s\" from \"%s\" (\"%s\")."
+msgstr "Application: Calling action \"%s\" from \"%s\" (\"%s\")."
+
+#: src/WEb/lib/App/App.lib.php:280
+msgid "Application: Dispatcher done."
+msgstr "Application: Dispatcher done."
+
+#: src/WEb/lib/App/App.lib.php:287
+msgid "Application: Shutdown."
+msgstr "Application: Shutdown."
+
+#: src/WEb/lib/App/App.lib.php:335
+msgid "Application: Loading error message."
+msgstr "Application: Loading error message."
+
+#: src/WEb/lib/Session/Session.lib.php:144
+msgid "Session library: Started new session."
+msgstr "Session library: Started new session."
+
+#: src/WEb/lib/Session/Session.lib.php:147
+msgid "Session library: Setting token"
+msgstr "Session library: Setting token"
+
+#: src/WEb/lib/Security/Security.lib.php:75
+msgid "Security library: Initializing input sanitization."
+msgstr "Security library: Initializing input sanitization."
+
+#: src/WEb/lib/Security/Security.lib.php:94
+#, php-format
+msgid "Security library: %s GET request sanitized."
+msgid_plural "Security library: %s GET requests sanitized."
+msgstr[0] "Security library: %s GET request sanitized."
+msgstr[1] "Security library: %s GET requests sanitized."
+
+#: src/WEb/lib/Security/Security.lib.php:118
+#, php-format
+msgid "Security library: %s POST request sanitized."
+msgid_plural "Security library: %s POST requests sanitized."
+msgstr[0] "Security library: %s POST request sanitized."
+msgstr[1] "Security library: %s POST requests sanitized."
+
+#: src/WEb/lib/Security/Security.lib.php:122
+msgid "Security library: Sanitize complete."
+msgstr "Security library: Sanitize complete."
+
+#: src/WEb/lib/Router/Router.lib.php:96
+msgid "Router library: Initializing routing."
+msgstr "Router library: Initializing routing."
+
+#: src/WEb/lib/Router/Router.lib.php:179
+msgid "Router library: Parsed request query."
+msgstr "Router library: Parsed request query."
+
+#: src/WEb/lib/Router/Router.lib.php:204
+msgid "Router library: Removing fake extension."
+msgstr "Router library: Removing fake extension."
+
+#: src/WEb/lib/Router/Router.lib.php:267
+msgid "Router library: Performing PATH_INFO routing."
+msgstr "Router library: Performing PATH_INFO routing."
+
+#: src/WEb/lib/Router/Router.lib.php:276
+msgid "Router library: Performing ORIG_PATH_INFO routing."
+msgstr "Router library: Performing ORIG_PATH_INFO routing."
+
+#: src/WEb/lib/Router/Router.lib.php:285
+msgid "Router library: Performing REQUEST_URI routing."
+msgstr "Router library: Performing REQUEST_URI routing."
+
+#: src/WEb/lib/Router/Router.lib.php:299
+msgid "Router library: Performing QUERY_STRING routing."
+msgstr "Router library: Performing QUERY_STRING routing."
+
+#: src/WEb/lib/Router/Router.lib.php:476
+msgid "Router library: Parsing custom routes."
+msgstr "Router library: Parsing custom routes."
+
+#: src/WEb/lib/Router/Router.lib.php:487
+msgid "Router library: Empty request. Setting to default."
+msgstr "Router library: Empty request. Setting to default."
+
+#: src/WEb/lib/Router/Router.lib.php:539
+msgid "Router library: Found matching custom route."
+msgstr "Router library: Found matching custom route."
+
+#: src/WEb/lib/Router/Router.lib.php:545
+msgid "Router library: No matching custom route found."
+msgstr "Router library: No matching custom route found."
+
+#: src/WEb/lib/Router/Router.lib.php:568
+msgid "Router library: Setting default route."
+msgstr "Router library: Setting default route."
+
+#: src/WEb/lib/Router/Router.lib.php:575
+msgid "Router library: Setting custom route."
+msgstr "Router library: Setting custom route."
+
+#: src/WEb/lib/Router/Router.lib.php:602
+msgid "Router library: Emptying $_GET array."
+msgstr "Router library: Emptying $_GET array."
+
+#: src/WEb/lib/Router/Router.lib.php:689
+msgid "Router library: Request parsing done."
+msgstr "Router library: Request parsing done."
+
+#: src/WEb/lib/Router/Router.lib.php:725
+msgid "Router library: Request formatting done."
+msgstr "Router library: Request formatting done."
+
+#: src/WEb/lib/Router/Router.lib.php:727
+msgid "Router library: Routing complete."
+msgstr "Router library: Routing complete."
+
+#: src/WEb/lib/Core/Core.lib.php:192
+#, php-format
+msgid "Core library: Database library \"%s\" loading."
+msgstr "Core library: Database library \"%s\" loading."
+
+#: src/WEb/lib/Core/Core.lib.php:582
+#, php-format
+msgid "Core Library: Class \"%s\" not found."
+msgstr "Core Library: Class \"%s\" not found."
+

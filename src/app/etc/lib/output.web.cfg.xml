@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <!-- Output library settings -->
+        <output>
+            <skin>Webapp</skin>
+            <template>layout</template>
+            <templates_extra>
+                <item>header</item>
+                <item>left</item>
+                <item>right</item>
+                <item>footer</item>
+                <item>scripts</item>
+                <item>comments</item>
+                <item>downloads</item>
+            </templates_extra>
+            <extension>.tpl.php</extension>
+        </output>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- Output library settings -->
+		<output>
+			<skin>Webapp</skin>
+			<template>layout</template>
+			<templates_extra>
+				<item>header</item>
+				<item>left</item>
+				<item>right</item>
+				<item>footer</item>
+				<item>scripts</item>
+				<item>comments</item>
+				<item>downloads</item>
+			</templates_extra>
+			<extension>.tpl.php</extension>
+		</output>
+	</prod>
+</config>
+<!-- $Id$ -->

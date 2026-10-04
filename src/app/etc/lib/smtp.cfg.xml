@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- $Id$ -->
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+        <!-- SMTP Settings -->
+        <smtp>
+            <!-- SMTP security (ssl, tls, none) ONLY SSL SUPPORT AT THE MOMENT -->
+            <security>ssl</security>
+            <!-- SMTP Server hostname ( defaults to localhost ) -->
+            <server>mail.example.com</server>
+            <!-- SMTP Server Port ( defaults to 25) -->
+            <port>465</port>
+            <!-- SMTP connection timeout (defaults to 45) -->
+            <timeout>45</timeout>
+            <!-- SMTP user name (blank for no authentication) -->
+            <user>updb@example.com</user>
+            <!-- SMTP password (blank for no authentication) -->
+            <password>CHANGE_ME</password>
+            <!-- Application hostname -->
+            <host>updb@example.com</host>
+        </smtp>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+        <!-- SMTP Settings -->
+        <smtp>
+            <!-- SMTP security (ssl, tls, none) ONLY SSL SUPPORT AT THE MOMENT -->
+            <security>ssl</security>
+            <!-- SMTP Server hostname ( defaults to localhost ) -->
+            <server>mail.example.com</server>
+            <!-- SMTP Server Port ( defaults to 25) -->
+            <port>465</port>
+            <!-- SMTP connection timeout (defaults to 45) -->
+            <timeout>45</timeout>
+            <!-- SMTP user name (blank for no authentication) -->
+            <user>updb@example.com</user>
+            <!-- SMTP password (blank for no authentication) -->
+            <password>CHANGE_ME</password>
+            <!-- Application hostname -->
+            <host>updb@example.com</host>
+        </smtp>
+	</prod>
+</config>

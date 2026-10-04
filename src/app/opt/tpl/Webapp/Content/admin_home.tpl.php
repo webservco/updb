@@ -1,0 +1,3 @@
+<article>
+		Administration area.
+</article>

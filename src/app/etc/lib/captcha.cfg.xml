@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+		<!-- Captcha library settings -->
+		<captcha>
+			<type>png</type>
+			<width>70</width>
+			<height>20</height>
+			<background>ffffff</background>
+			<foreground>111111</foreground>
+			<transparent>1</transparent>
+			<font>VeraMono.ttf</font>
+			<size>12</size>
+			<output>1</output>
+		</captcha>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+	    <!-- Captcha library settings -->
+		<captcha>
+			<type>png</type>
+			<width>70</width>
+			<height>20</height>
+			<background>ffffff</background>
+			<foreground>111111</foreground>
+			<transparent>1</transparent>
+			<font>VeraMono.ttf</font>
+			<size>12</size>
+			<output>1</output>
+		</captcha>
+	</prod>
+</config>
+<!-- $Id$ -->

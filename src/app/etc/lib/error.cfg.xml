@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+		<!-- Error library settings -->
+		<error>
+			<!-- Show trace info in error log? -->
+			<trace>1</trace>
+		</error>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+		<!-- Error library settings -->
+		<error>
+			<!-- Show trace info in error log? -->
+			<trace>1</trace>
+		</error>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<!-- Error library settings -->
+		<error>
+			<!-- Show trace info in error log? -->
+			<trace>1</trace>
+		</error>
+	</prod>
+</config>
+<!-- $Id$ -->

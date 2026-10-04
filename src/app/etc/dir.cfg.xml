@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Configuration -->
+<config>
+	<!-- Development Environment -->
+	<dev>
+		<dir>
+			<app>
+				<ctrl>ctrl</ctrl>
+				<i18n>i18n</i18n>
+				<mod>mod</mod>
+				<obj>obj</obj>
+				<opt>opt</opt>
+				<tpl>tpl</tpl>
+				<var>var</var>
+				<tmp>tmp</tmp>
+				<usr>usr</usr>
+				<skins>skins</skins>
+			</app>
+		</dir>
+	</dev>
+	<!-- Test Environment -->
+	<test>
+		<dir>
+			<app>
+				<ctrl>ctrl</ctrl>
+				<i18n>i18n</i18n>
+				<mod>mod</mod>
+				<obj>obj</obj>
+				<opt>opt</opt>
+				<tpl>tpl</tpl>
+				<var>var</var>
+				<tmp>tmp</tmp>
+				<usr>usr</usr>
+				<skins>skins</skins>
+			</app>
+		</dir>
+	</test>
+	<!-- Production Environment -->
+	<prod>
+		<dir>
+			<app>
+				<ctrl>ctrl</ctrl>
+				<i18n>i18n</i18n>
+				<mod>mod</mod>
+				<obj>obj</obj>
+				<opt>opt</opt>
+				<tpl>tpl</tpl>
+				<var>var</var>
+				<tmp>tmp</tmp>
+				<usr>usr</usr>
+				<skins>skins</skins>
+			</app>
+		</dir>
+	</prod>
+</config>
+<!-- $Id$ -->
