@@ -11,3 +11,6 @@
 *.zip binary
 *.woff binary
 *.xcf binary
+*.gif binary
+*.ico binary
+*.mo binary
